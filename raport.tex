@@ -35,7 +35,7 @@ W tym raporcie opisuję implementację regresji liniowej na danych z pliku \text
 
 \subsection{Wczytywanie i podział}
 
-Dane wczytuję z pliku \texttt{dane.data} (tab-separated, separator dziesiętny to przecinek). Przy każdym uruchomieniu losuję kolejność obserwacji, a następnie dzielę je na trzy zbiory w proporcji $0.6 : 0.2 : 0.2$ (treningowy, walidacyjny, testowy). Hiperparametry dobieram na zbiorze walidacyjnym, a ostateczną ocenę modelu robię na zbiorze testowym.
+Dane wczytuję z pliku \texttt{dane.data}. Przy każdym uruchomieniu losuję kolejność obserwacji, a następnie dzielę je na trzy zbiory w proporcji $0.6 : 0.2 : 0.2$ (treningowy, walidacyjny, testowy). Hiperparametry dobieram na zbiorze walidacyjnym, a ostateczną ocenę modelu robię na zbiorze testowym.
 
 \subsection{Standaryzacja}
 
