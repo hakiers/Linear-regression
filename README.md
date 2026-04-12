@@ -1,1 +1,3 @@
 This is a linear regression project implemented in Python as a part of *probabilistic method in machine learning* course.
+
+# Raport: [raport.pdf](raport.pdf)
